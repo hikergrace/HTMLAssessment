@@ -55,7 +55,7 @@
   </table>
   <h3>LIST</h3>
   <ul>
-    <li><img src="broncos.png" alt="Denver Broncos" height="100px"><a href="http://www.denverbroncos.com" target="_blank">Denver Broncos</a>
+    <li><img src="broncos.png" alt="Denver Broncos" height="100px"><br><a href="http://www.denverbroncos.com" target="_blank">Denver Broncos</a>
       <ul>
         <li>Coach: Vance Joseph</li>
         <li>QBs:
@@ -70,7 +70,7 @@
   </ul>
 
   <ul>
-    <li><img src="dallas.png" alt="Dallas Cowboys" height="100px"><a href="http://www.dallascowboys.com" target="_blank">Dallas Cowboys</a>
+    <li><img src="dallas.png" alt="Dallas Cowboys" height="100px"><br><a href="http://www.dallascowboys.com" target="_blank">Dallas Cowboys</a>
       <ul>
         <li>Coach: Jason Garrett</li>
         <li>QBs:
@@ -82,6 +82,34 @@
       </ul>
     </li>
   </ul>
+
+  <h3>FORM</h3>
+  <form>
+    First name: <input type="text" name="fname">
+    &nbsp;&nbsp;&nbsp;&nbsp;Last name: <input type="text" name="lname"><br>
+    <p>What's your favorite sport?</p>
+    <select name="sports">
+      <option value="running">Running</option>
+      <option value="cycling">Cycling</option>
+      <option value="skiing">Skiing</option>
+      <option value="football">Football</option>
+    </select>
+    <p>I have:
+    <input type="checkbox" name="activity" value="played">Played
+    <input type="checkbox" name="activity" value="coached">Coached
+    <input type="checkbox" name="activity" value="attended">Attended
+    <input type="checkbox" name="activity" value="bet">Bet
+    <br>this sport</p>
+
+    <p>I prefer this sport to be:
+      <input type="radio" name="proam" value="amateur">Amateur
+      <input type="radio" name="proam" value="pro">Pro
+      <input type="radio" name="proam" value="college">College
+      <br>
+      <br>
+      <input type="submit" value="Submit Query">
+    </form>
+
 
   </body>
 </html>
