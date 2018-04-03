@@ -1,0 +1,58 @@
+/*User Story #1
+Your headers should be changed to your favorite color and set to a sans-serif font. (Notice they are not all the same tag!)*/
+.subjectHeader {
+  font-family: sans-serif;
+  color: #064818;
+}
+
+/*User Story #2
+Your table should have bold/colored table headers, as well as a table border. Content should be centered in their respective blocks.*/
+th {
+  background-color: #064818;
+  font-weight: bold;
+  color: white;
+}
+
+#scoreBoard {
+  border: 1px solid #064818;
+  text-align: center;
+}
+
+/*User Story #3
+Your list should have square list bullets.*/
+li {
+  list-style: square;
+}
+
+/*User Story #4
+When the user hovers over a hyperlink the background color of the hyperlink should change and it should not be underlined.*/
+a:hover {
+  background-color: #69B77E;
+  text-decoration: none;
+}
+
+/*User Story #5
+Set the background color of the block quote text (second paragraph) to a dark color and the font color to a contrasting light color.*/
+blockquote {
+  background-color: #064818;
+  color: white;
+}
+
+/*User Story #6
+Make each team's image the background image for the list. Hint Check out the element > element and :first-child / :last-child selectors.*/
+#teamRoster>li>img{
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 50px;
+  z-index: -1;
+  opacity: .4;
+}
+#teamRoster>li{
+  list-style: none;
+}
+
+/*User Story #7
+The checkbox list should not be bulleted.*/
+#checkbox-grid li {
+  list-style: none;
+}
