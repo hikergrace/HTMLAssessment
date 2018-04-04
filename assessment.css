@@ -9,18 +9,20 @@ Your headers should be changed to your favorite color and set to a sans-serif fo
 Your table should have bold/colored table headers, as well as a table border. Content should be centered in their respective blocks.*/
 th {
   font-weight: bold;
-  color: white;
-  background-color: #064818;
-
+  color: #064818;
+  background-color: #92D18B;
 }
 
 #scoreBoard {
-  border: 1px solid #064818;
+  border: 2px solid #064818;
   text-align: center;
   width: 45%;
+  border-spacing: 0;
 }
 
-
+/*#scoreBoard tr:nth-child(even){
+  background-color: #064818;
+}*/
 
 /*User Story #3
 Your list should have square list bullets.*/
@@ -49,7 +51,7 @@ Make each team's image the background image for the list. Hint Check out the ele
   padding-top: 50px;
   padding-left: 50px;
   z-index: -1;
-  opacity: .4;
+  opacity: .3;
 }
 #teamRoster>li{
   list-style: none;
